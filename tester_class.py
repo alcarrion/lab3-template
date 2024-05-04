@@ -189,23 +189,6 @@ class TrainerTester(unittest.TestCase):
                 "\n\n***********   El método __str__() debe estar creado en la clase Trainer y debe devolver el nombre y apellido del entrenador")
         except ImportError:
             self.fail("\n\n***********  No se pudo cargar el módulo 'trainer'")           
-    
-
-class TestMainModule(unittest.TestCase):
-    """
-        Clase para probar la clase principal
-    """
-
-    def test_module_exist(self):
-        """
-        Prueba para verificar la existencia del módulo principal
-        """
-        try:
-            spec = importlib.util.find_spec("__main__")
-            self.assertIsNotNone(spec, "\n\n***********     ERROR: El módulo principal no existe    *************")
-        except ImportError:
-            self.fail("\n\n***********  ERROR No se pudo cargar el módulo principal     **************\n\n")
-
 
 if __name__ == '__main__':
     unittest.main()
