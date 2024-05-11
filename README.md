@@ -1,5 +1,5 @@
 # Laboratorio No. 3
-A partir del laboratorio tres deberás extender las funcionalidades de la clase Pokemon utilizando los 4 pilares fundamentales del Paradigma Orientado a Objetos (POO)
+A partir del laboratorio 2 deberás extender las funcionalidades de la clase Pokemon utilizando los 4 pilares fundamentales del Paradigma Orientado a Objetos (POO)
 
 ## Objetivos
 - El estudiante debe ser capaz de reconocer y aplicar conceptos básicos del Paradigma Orientado a Objetos como: Clases, Ojetos, Atributos, Métodos e Instancias
